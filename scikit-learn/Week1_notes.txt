@@ -1,0 +1,19 @@
+Unsupervised learning: learn the structure of unlabeled data: clustering or
+detecting outliers
+
+Supervised learning: mapping input data to labeled data, either classification or regression
+
+Scikit-learn has a function to split the training and test set
+
+X_train, X_test, y_train, y_test = train_test_split[X, y, random_state=0]
+random_state provides a seed value for the random number generator
+
+Looking at data before doing anything is important: 
+- some cleaning and preprocessing may be required
+- missing or noisy data/inconsistencies
+- can the problem be solved without machine learning?
+
+It's good to have an idea of how well clustered the data are in feature space
+
+kNN or k-nearest neighbours algorithm is an instance space learning method
+
